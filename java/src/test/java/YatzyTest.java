@@ -378,8 +378,9 @@ public class YatzyTest {
 
     @Nested
     class SmallStraight_should_ {
-        @Test @Disabled("""
-            this test won't pass before refactoring, 
+        @Test
+        @Disabled("""
+            this test won't pass before refactoring,
             Please check why
             Maybe the previous code was not compliant with the official rules https://fr.wikibooks.org/wiki/Bo%C3%AEte_%C3%A0_jeux/Yams
             """)
@@ -422,7 +423,8 @@ public class YatzyTest {
 
     @Nested
     class LargeStraight_should_ {
-        @Test @Disabled("""
+        @Test
+        @Disabled("""
             this test won't pass before refactoring
             Please check why
             Maybe the previous code was not compliant with the official rules https://fr.wikibooks.org/wiki/Bo%C3%AEte_%C3%A0_jeux/Yams
@@ -489,6 +491,4 @@ public class YatzyTest {
             assertEquals(expected, actual);
         }
     }
-
-
 }
